@@ -6,7 +6,7 @@ image = Image.open('SimonImagen.png')
 st.image(image, width=650)
 
 with st.sidebar:
-  st.subheader("Aplicaciones con Inteligencia Artificial.")
+  st.subheader("Aplicaciones e Interfaces Multimodales y de Inteligencia Artificial creadas con GitHub y Streamlit.")
   parrafo = (
     "Este portafolio reúne las actividades desarrolladas durante la primer mitad del curso de Creación de Interfaces"
     "Multimodales, donde estamos explorando diferentes herramientas y tecnologías de inteligencia artificial"

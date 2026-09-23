@@ -15,7 +15,8 @@ with st.sidebar:
     "interfaces más interactivas, accesibles y dinámicas."
   )
   st.write(parrafo)
-
+  
+col1, col2, col3 = st.columns(3)
 with col1:
  
  st.subheader("Conversión de texto a voz")

@@ -1,6 +1,8 @@
 import streamlit as st
 from PIL import Image
-st.title("Aplicaciones de Inteligencia Artificial.")
+st.title("Portafolio 1 - Creación de Interfaces multimodales")
+st.subheader('Creado por: Simón Mesa Díaz')
+image = image.open('Simonimagen.jpg')
 
 with st.sidebar:
   st.subheader("Aplicaciones con Inteligencia Artificial.")

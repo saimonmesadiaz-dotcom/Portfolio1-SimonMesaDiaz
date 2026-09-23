@@ -3,7 +3,7 @@ from PIL import Image
 st.title("Portafolio 1 - Creación de Interfaces multimodales")
 st.subheader('Creado por: Simón Mesa Díaz')
 image = Image.open('SimonImagen.png')
-st.image(image, width=600)
+st.image(image, width=650)
 
 with st.sidebar:
   st.subheader("Aplicaciones con Inteligencia Artificial.")

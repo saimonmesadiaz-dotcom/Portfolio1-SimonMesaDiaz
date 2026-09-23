@@ -8,16 +8,13 @@ st.image(image, width=650)
 with st.sidebar:
   st.subheader("Aplicaciones con Inteligencia Artificial.")
   parrafo = (
-    "La inteligencia artificial permite mejorar la toma de decisiones con el uso de datos, "
-    "automatizar tareas rutinarias y proporcionar análisis avanzados en tiempo real, lo que "
-    "resulta en una mayor eficiencia y precisión en diversos campos."
+    "Este portafolio reúne las actividades desarrolladas durante la primer mitad del curso de Creación de Interfaces"
+    "Multimodales, donde estamos explorando diferentes herramientas y tecnologías de inteligencia artificial"
+    "aplicadas a la interacción digital. A través de ejercicios de procesamiento de texto, audio e imágenes, "
+    "reconocimiento de voz, visión artificial y aprendizaje automático, experimenté con distintas formas de crear "
+    "interfaces más interactivas, accesibles y dinámicas."
   )
   st.write(parrafo)
-
-url_ia="https://sites.google.com/view/aplicacionesdeia/inicio"
-st.subheader("En el siguiente enlace puedes encontrar páginas y ejercicios prácticos")
-st.write(f"Enlace para páginas y ejercicios: [Enlace]({url_ia})")
-col1, col2, col3 = st.columns(3)
 
 with col1:
  

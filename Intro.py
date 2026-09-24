@@ -34,7 +34,7 @@ with col1:
  st.write(f"Texto a Voz: [Enlace]({url})")
 
  st.subheader("Voz a texto multilingüe — Reconocimiento de voz")
- image = Image.open('OIG5.jpg')
+ image = Image.open('Traduccion.avif')
  st.image(image, width=200)
  st.write("Creación de una interfaz capaz de transformar audio de voz en texto en diferentes idiomas, incluyendo español, inglés, francés, italiano, alemán y mandarín. La actividad permitió experimentar con el reconocimiento automático del lenguaje y sus posibilidades de interacción.") 
  url = "https://traductorsimon-cwqeceiewyudz2ktpf6hzh.streamlit.app/"
@@ -49,7 +49,7 @@ with col1:
 
 with col2: 
  st.subheader("Interfaz final — OCR y análisis estadístico - Temática playera")
- image = Image.open('OIG8.jpg')
+ image = Image.open('Playa.jpg')
  st.image(image, width=200)
  st.write("Desarrollo de una interfaz multimodal de conversión de imagen a texto, complementada con un análisis estadístico de las vocales identificadas en el contenido extraído. La propuesta incorporó una temática playera para integrar el procesamiento de texto con una experiencia visual más personalizada.") 
  url = "https://ocr-audiosimon-awv2toavjnd8nxdt7uuqvh.streamlit.app/"

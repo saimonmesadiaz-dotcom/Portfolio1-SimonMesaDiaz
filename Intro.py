@@ -20,7 +20,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
  
  st.subheader("Mi primer repositorio - Introducción a GitHub")
- image = Image.open('txt_to_audio2.png')
+ image = Image.open('SnoopyP.jpg')
  st.image(image, width=190)
  st.write("Exploración inicial de GitHub como herramienta para el desarrollo y publicación de interfaces. Se realizó el primer repositorio y se experimentó con modificaciones visuales y transformaciones básicas de imágenes dentro de una interfaz web.") 
  url = "https://el-primer-repo-de-saimon-fnendgpad7jxzqwkawtxsa.streamlit.app/"

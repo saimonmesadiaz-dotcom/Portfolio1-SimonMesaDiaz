@@ -106,20 +106,31 @@ p {
 
 
 /* =========================================================
-   IMÁGENES
+   IMÁGENES CENTRADAS
 ========================================================= */
 
+/* Contenedor de cada imagen */
 [data-testid="stImage"] {
+    width: 100% !important;
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-    width: 100% !important;
+    text-align: center !important;
 }
 
+/* Contenedor interno */
+[data-testid="stImage"] > div {
+    width: auto !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 auto !important;
+}
+
+/* Imagen */
 [data-testid="stImage"] img {
     display: block !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
+    margin: 0 auto !important;
     border-radius: 15px !important;
     box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.30);
 }
@@ -202,7 +213,7 @@ section[data-testid="stSidebar"] p {
 }
 
 
-/* Hace que cualquier otro texto del sidebar sea negro */
+/* Todo el contenido del sidebar en negro */
 
 section[data-testid="stSidebar"] * {
     color: #171717;

@@ -106,31 +106,17 @@ p {
 
 
 /* =========================================================
-   IMÁGENES CENTRADAS
+   IMÁGENES
 ========================================================= */
 
-/* Contenedor de cada imagen */
 [data-testid="stImage"] {
-    width: 100% !important;
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
     text-align: center !important;
 }
 
-/* Contenedor interno */
-[data-testid="stImage"] > div {
-    width: auto !important;
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    margin: 0 auto !important;
-}
-
-/* Imagen */
 [data-testid="stImage"] img {
     display: block !important;
-    margin: 0 auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
     border-radius: 15px !important;
     box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.30);
 }
@@ -213,8 +199,6 @@ section[data-testid="stSidebar"] p {
 }
 
 
-/* Todo el contenido del sidebar en negro */
-
 section[data-testid="stSidebar"] * {
     color: #171717;
 }
@@ -257,6 +241,24 @@ footer {
 
 
 # =========================================================
+# FUNCIÓN PARA CENTRAR IMÁGENES
+# =========================================================
+
+def imagen_centrada(ruta, ancho):
+    imagen = Image.open(ruta)
+
+    espacio_izquierdo, centro, espacio_derecho = st.columns(
+        [1, 2, 1]
+    )
+
+    with centro:
+        st.image(
+            imagen,
+            width=ancho
+        )
+
+
+# =========================================================
 # ENCABEZADO
 # =========================================================
 
@@ -283,12 +285,7 @@ st.markdown("---")
 # IMAGEN PRINCIPAL
 # =========================================================
 
-image = Image.open("SimonImagen.png")
-
-st.image(
-    image,
-    width=650
-)
+imagen_centrada("SimonImagen.png", 650)
 
 
 # =========================================================
@@ -330,8 +327,7 @@ with col1:
 
     st.subheader("Mi primer repositorio — Introducción a GitHub")
 
-    image = Image.open("SnoopyP.jpg")
-    st.image(image, width=190)
+    imagen_centrada("SnoopyP.jpg", 190)
 
     st.write(
         "Exploración inicial de GitHub como herramienta para el desarrollo "
@@ -346,8 +342,7 @@ with col1:
 
     st.subheader("Texto a voz — Conversión de texto en audio")
 
-    image = Image.open("txt_to_audio.png")
-    st.image(image, width=200)
+    imagen_centrada("txt_to_audio.png", 200)
 
     st.write(
         "Desarrollo de una interfaz para convertir texto escrito en audio, "
@@ -362,8 +357,7 @@ with col1:
 
     st.subheader("Voz a texto multilingüe — Reconocimiento de voz")
 
-    image = Image.open("Traduccion.avif")
-    st.image(image, width=200)
+    imagen_centrada("Traduccion.avif", 200)
 
     st.write(
         "Creación de una interfaz capaz de transformar audio de voz en "
@@ -377,8 +371,7 @@ with col1:
 
     st.subheader("Imagen a texto — Reconocimiento Óptico de Caracteres")
 
-    image = Image.open("Playa.jpg")
-    st.image(image, width=200)
+    imagen_centrada("Playa.jpg", 200)
 
     st.write(
         "Implementación de OCR para extraer texto a partir de imágenes. "
@@ -398,8 +391,7 @@ with col2:
 
     st.subheader("Interfaz final — OCR y análisis estadístico")
 
-    image = Image.open("Playa.jpg")
-    st.image(image, width=200)
+    imagen_centrada("Playa.jpg", 200)
 
     st.write(
         "Desarrollo de una interfaz multimodal de conversión de imagen "
@@ -415,8 +407,7 @@ with col2:
 
     st.subheader("WordCloud — Nube de palabras")
 
-    image = Image.open("data_analisis.png")
-    st.image(image, width=190)
+    imagen_centrada("data_analisis.png", 190)
 
     st.write(
         "Creación de nubes de palabras a partir de fragmentos de texto "
@@ -431,8 +422,7 @@ with col2:
 
     st.subheader("Análisis de sentimientos — Emociones e interacción")
 
-    image = Image.open("OIG3.jpg")
-    st.image(image, width=200)
+    imagen_centrada("OIG3.jpg", 200)
 
     st.write(
         "Desarrollo de una interfaz para identificar sentimientos y "
@@ -453,8 +443,7 @@ with col3:
 
     st.subheader("Evaluación automática — TF-IDF")
 
-    image = Image.open("Chat_pdf.png")
-    st.image(image, width=190)
+    imagen_centrada("Chat_pdf.png", 190)
 
     st.write(
         "Creación de una interfaz para generar preguntas y respuestas "
@@ -469,8 +458,7 @@ with col3:
 
     st.subheader("YOLO — Reconocimiento y detección de objetos")
 
-    image = Image.open("Chat_pdf.png")
-    st.image(image, width=190)
+    imagen_centrada("Chat_pdf.png", 190)
 
     st.write(
         "Exploración del modelo YOLO (You Only Look Once) para el "
@@ -485,8 +473,7 @@ with col3:
 
     st.subheader("Teachable Machine — Reconocimiento de gestos y objetos")
 
-    image = Image.open("OIG6.jpg")
-    st.image(image, width=200)
+    imagen_centrada("OIG6.jpg", 200)
 
     st.write(
         "Experimentación con Teachable Machine de Google para entrenar "

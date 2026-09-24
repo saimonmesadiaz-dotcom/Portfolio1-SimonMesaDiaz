@@ -340,7 +340,7 @@ with col1:
     st.write(f"🔗 Repositorio Snoopy: [Enlace]({url})")
 
 
-    st.subheader("Texto a voz — Conversión de texto en audio")
+    st.subheader("Conversión de texto a audio")
 
     imagen_centrada("txt_to_audio.png", 200)
 
@@ -420,7 +420,7 @@ with col2:
     st.write(f"🔗 WordCloud: [Enlace]({url})")
 
 
-    st.subheader("Análisis de sentimientos — Emociones e interacción")
+    st.subheader("Análisis sentimientos — Emociones e interacción")
 
     imagen_centrada("OIG3.jpg", 200)
 

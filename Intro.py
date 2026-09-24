@@ -41,7 +41,7 @@ with col1:
  st.write(f"Traductor: [Enlace]({url})")
 
  st.subheader("Imagen a texto - Reconocimiento Óptico de Caracteres (OCR)")
- image = Image.open('OIG5.jpg')
+ image = Image.open('Playa.jpg')
  st.image(image, width=200)
  st.write("Implementación de OCR para extraer texto a partir de imágenes. La actividad permitió explorar cómo una imagen con información escrita puede ser procesada y convertida en texto editable, aplicando conceptos de visión artificial y procesamiento de información.") 
  url = "https://ocr-audiosimon-abfnnjajxn75g8upksqeq6.streamlit.app/"

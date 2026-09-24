@@ -325,7 +325,7 @@ col1, col2, col3 = st.columns(3, gap="large")
 
 with col1:
 
-    st.subheader("Mi primer repositorio — Introducción a GitHub")
+    st.subheader("Mi primer repositorio — Intro GitHub")
 
     imagen_centrada("SnoopyP.jpg", 190)
 

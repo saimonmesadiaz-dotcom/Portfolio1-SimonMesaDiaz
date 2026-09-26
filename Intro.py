@@ -418,7 +418,7 @@ espacio_izquierdo, contenido_centro, espacio_derecho = st.columns([1, 2, 1])
 with contenido_centro:
 
     st.subheader("Imagen a texto - Reconocimiento Óptico de Caracteres OCR")
-    imagen_centrada("ocr.png", 200)
+    imagen_centrada("ocr.png", 400)
 
     st.write(
         "Implementación de OCR para extraer texto a partir de imágenes. "

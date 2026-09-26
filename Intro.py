@@ -332,7 +332,7 @@ with col1:
 
 with col2:
 
-    st.subheader("Interfaz final - OCR y análisis estadístico")
+    st.subheader("Interfaz OCR Audio y análisis estadístico")
     imagen_centrada("Playa.jpg", 200)
     st.write(
         "Interfaz de conversión de imagen a texto, complementada "
@@ -341,7 +341,7 @@ with col2:
         "una temática playera para integrar una visual personalizada."
     )
     url = "https://ocr-audiosimon-awv2toavjnd8nxdt7uuqvh.streamlit.app/"
-    st.write(f"🔗 OCR y análisis: [Enlace]({url})")
+    st.write(f"🔗 OCR Audio Temático y análisis: [Enlace]({url})")
 
 
     st.subheader("WordCloud - Nube de palabras")
@@ -418,7 +418,7 @@ espacio_izquierdo, contenido_centro, espacio_derecho = st.columns([1, 2, 1])
 
 with contenido_centro:
 
-    st.subheader("Imagen a texto — Reconocimiento Óptico de Caracteres")
+    st.subheader("Imagen a texto OCR — Reconocimiento Óptico de Caracteres")
     imagen_centrada("Playa.jpg", 200)
 
     st.write(
@@ -427,5 +427,8 @@ with contenido_centro:
         "escrita puede ser procesada y convertida en texto editable."
     )
 
-    url = "https://ocr-audiosimon-abfnnjajxn75g8upksqeq6.streamlit.app/"
+    url = "https://ocrsimonclase7-7mfw3mnqwhzk63smvxw2sv.streamlit.app/"
     st.write(f"🔗 Reconocimiento óptico de caracteres: [Enlace]({url})")
+    url2 = "https://ocr-audiosimon-abfnnjajxn75g8upksqeq6.streamlit.app/"
+    st.write(f"🔗 Interfaz OCR sin intervención: [Enlace]({url})")
+    

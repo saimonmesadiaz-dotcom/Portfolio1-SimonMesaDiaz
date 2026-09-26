@@ -378,7 +378,7 @@ with col3:
         "Creación de una interfaz para generar preguntas y respuestas "
         "automáticas a partir de textos mediante procesamiento "
         "de lenguaje natural. Se utilizó TF-IDF para identificar términos "
-        "relevantes dentro de documentos."
+        "relevantes dentro de conjuntos de documentos."
     )
     url = "https://tdfespsimon-735v6pnj9zjcvmgf2qrjwv.streamlit.app/"
     st.write(f"🔗 TF-IDF: [Enlace]({url})")

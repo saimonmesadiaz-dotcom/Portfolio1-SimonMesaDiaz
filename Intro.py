@@ -355,7 +355,7 @@ with col2:
 
 
     st.subheader("Análisis sentimientos - Emociones")
-    imagen_centrada("EMOCIONES.jpg", 200)
+    imagen_centrada("EMOCIONES.png", 200)
     st.write(
         "Interfaz que identifica sentimientos y emociones presentes "
         "en un texto de entrada. Los resultados se complementaron "

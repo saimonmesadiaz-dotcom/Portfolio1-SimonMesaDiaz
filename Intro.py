@@ -392,7 +392,7 @@ with col3:
         "permitió comprender cómo la inteligencia artificial puede "
         "interpretar información visual."
     )
-    url = "https://t8pwvf7om2y4dwtcjzvsyu.streamlit.app/"
+    url = "https://yolov5simon-hzxwgknlx5tajlvax74gns.streamlit.app/"
     st.write(f"🔗 YOLO: [Enlace]({url})")
 
 

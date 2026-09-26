@@ -298,7 +298,7 @@ with col1:
         "y transformaciones básicas de imágenes dentro de una interfaz de formato web."
     )
     url = "https://el-primer-repo-de-saimon-fnendgpad7jxzqwkawtxsa.streamlit.app/"
-    st.write(f"🔗 Repositorio Snoopy: [Enlace]({url})")
+    st.write(f"🔗 Intro Repositorio Snoopy: [Enlace]({url})")
 
 
     st.subheader("Conversión de texto a audio")
@@ -310,7 +310,7 @@ with col1:
         "contenidos escritos."
     )
     url = "https://gaticorat-cxqqen2bqdsebk6fnnoapf.streamlit.app/"
-    st.write(f"🔗 Texto a Voz: [Enlace]({url})")
+    st.write(f"🔗 Fábulas: Texto a Voz: [Enlace]({url})")
     url2 = "https://gaticorat-v3kscp9uekqdd9qqfauysz.streamlit.app/"
     st.write(f"🔗 Texto a Voz: [Enlace]({url2})")
 

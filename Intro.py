@@ -320,7 +320,7 @@ with col1:
         "texto en diferentes idiomas, incluyendo español, inglés, francés, "
         "italiano, alemán y mandarín."
     )
-    url = "https://traductorsimon-cwqeceiewyudz2ktpf6hzh.streamlit.app/"
+    url = "https://traductorsimon-5msaydpezd7zgwclllbkmy.streamlit.app/"
     st.write(f"🔗 Traductor: [Enlace]({url})")
     
     

@@ -302,7 +302,7 @@ with col1:
 
 
     st.subheader("Conversión de texto a audio")
-    imagen_centrada("txt_to_audio.png", 300)
+    imagen_centrada("LECTURA.png", 300)
     st.write(
         "Desarrollo de interfaz para convertir texto escrito en audio, "
         "explorando herramientas de voz. La actividad permitió comprender "

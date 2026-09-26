@@ -295,7 +295,7 @@ with col1:
     st.write(
         "Exploración inicial de GitHub como herramienta para el desarrollo "
         "y publicación de interfaces. Se experimentó con modificaciones visuales "
-        "y transformaciones básicas de imágenes dentro de una web."
+        "y transformaciones básicas de imágenes dentro de una interfaz de formato web."
     )
     url = "https://el-primer-repo-de-saimon-fnendgpad7jxzqwkawtxsa.streamlit.app/"
     st.write(f"🔗 Repositorio Snoopy: [Enlace]({url})")
@@ -384,7 +384,7 @@ with col3:
     st.write(f"🔗 TF-IDF: [Enlace]({url})")
 
 
-    st.subheader("YOLO — Reconocimiento y detección de objetos")
+    st.subheader("YOLO - Detección y reconocimiento de objetos")
     imagen_centrada("Chat_pdf.png", 190)
     st.write(
         "Exploración del modelo YOLO (You Only Look Once) para el "

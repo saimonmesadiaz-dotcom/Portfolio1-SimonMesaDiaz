@@ -384,7 +384,7 @@ with col3:
     st.write(f"🔗 TF-IDF: [Enlace]({url})")
 
 
-    st.subheader("YOLO - Detección y reconocimiento de objetos")
+    st.subheader("YOLO - Detección de objetos")
     imagen_centrada("Chat_pdf.png", 190)
     st.write(
         "Exploración del modelo YOLO (You Only Look Once) para el "

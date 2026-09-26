@@ -343,7 +343,7 @@ with col2:
 
 
     st.subheader("WordCloud — Nube de palabras")
-    imagen_centrada("data_analisis.png", 190)
+    imagen_centrada("WORDCLOUD.png", 190)
     st.write(
         "Creación de nubes de palabras a partir de fragmentos de texto "
         "para representar visualmente los términos más relevantes. "

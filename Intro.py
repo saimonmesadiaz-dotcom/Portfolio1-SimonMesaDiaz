@@ -295,7 +295,7 @@ with col1:
     st.write(
         "Exploración inicial de GitHub como herramienta para el desarrollo "
         "y publicación de interfaces. Se experimentó con modificaciones visuales "
-        "y transformaciones básicas de imágenes dentro de una interfaz web."
+        "y transformaciones básicas de imágenes dentro de una web."
     )
     url = "https://el-primer-repo-de-saimon-fnendgpad7jxzqwkawtxsa.streamlit.app/"
     st.write(f"🔗 Repositorio Snoopy: [Enlace]({url})")

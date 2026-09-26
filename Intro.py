@@ -396,7 +396,7 @@ with col3:
     st.write(f"🔗 YOLO: [Enlace]({url})")
 
 
-    st.subheader("Teachable Machine — Reconocimiento deobjetos")
+    st.subheader("Teachable Machine - Reconocer objetos")
     imagen_centrada("OIG6.jpg", 200)
     st.write(
         "Experimentación con Teachable Machine de Google para entrenar "

@@ -294,9 +294,8 @@ with col1:
     imagen_centrada("SnoopyP.jpg", 300)
     st.write(
         "Exploración inicial de GitHub como herramienta para el desarrollo "
-        "y publicación de interfaces. Se realizó el primer repositorio y "
-        "se experimentó con modificaciones visuales y transformaciones "
-        "básicas de imágenes dentro de una interfaz web."
+        "y publicación de interfaces. Se experimentó con modificaciones visuales "
+        "y transformaciones básicas de imágenes dentro de una interfaz web."
     )
     url = "https://el-primer-repo-de-saimon-fnendgpad7jxzqwkawtxsa.streamlit.app/"
     st.write(f"🔗 Repositorio Snoopy: [Enlace]({url})")
@@ -305,10 +304,10 @@ with col1:
     st.subheader("Conversión de texto a audio")
     imagen_centrada("txt_to_audio.png", 300)
     st.write(
-        "Desarrollo de una interfaz para convertir texto escrito en audio, "
-        "explorando herramientas de síntesis de voz. La actividad permitió "
-        "comprender cómo estas tecnologías facilitan la interacción con "
-        "contenidos escritos y sirven como base para interfaces multimodales."
+        "Desarrollo de interfaz para convertir texto escrito en audio, "
+        "explorando herramientas de voz. La actividad permitió comprender "
+        "cómo estas tecnologías facilitan la interacción con "
+        "contenidos escritos."
     )
     url = "https://gaticorat-cxqqen2bqdsebk6fnnoapf.streamlit.app/"
     st.write(f"🔗 Texto a Voz: [Enlace]({url})")
@@ -334,11 +333,10 @@ with col2:
     st.subheader("Interfaz final — OCR y análisis estadístico")
     imagen_centrada("Playa.jpg", 200)
     st.write(
-        "Desarrollo de una interfaz multimodal de conversión de imagen "
-        "a texto, complementada con un análisis estadístico de las vocales "
-        "identificadas en el contenido extraído. La propuesta incorporó "
-        "una temática playera para integrar el procesamiento de texto "
-        "con una experiencia visual personalizada."
+        "Interfaz de conversión de imagen a texto, complementada "
+        "con un análisis estadístico de las vocales identificadas "
+        "en el contenido extraído. La propuesta de diseño incorporó "
+        "una temática playera para integrar una visual personalizada."
     )
     url = "https://ocr-audiosimon-awv2toavjnd8nxdt7uuqvh.streamlit.app/"
     st.write(f"🔗 OCR y análisis: [Enlace]({url})")
@@ -359,8 +357,8 @@ with col2:
     st.subheader("Análisis sentimientos — Emociones e interacción")
     imagen_centrada("OIG3.jpg", 200)
     st.write(
-        "Desarrollo de una interfaz para identificar sentimientos y "
-        "emociones presentes en un texto. Los resultados se complementaron "
+        "Interfaz que identifica sentimientos y emociones presentes "
+        "en un texto de entrada. Los resultados se complementaron "
         "con animaciones de Lottie y videos asociados a las emociones "
         "detectadas."
     )

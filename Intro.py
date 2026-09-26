@@ -411,20 +411,6 @@ with col3:
 # =========================================================
 # ÚLTIMA ACTIVIDAD — FUERA DE LAS COLUMNAS
 # =========================================================
-hr {
-    border: none;
-
-    height: 2px;
-
-    background: linear-gradient(
-        90deg,
-        transparent,
-        #5FFFF5,
-        transparent
-    );
-
-    margin: 30px 0;
-}
 
 espacio_izquierdo, contenido_centro, espacio_derecho = st.columns([1, 2, 1])
 

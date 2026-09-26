@@ -305,8 +305,7 @@ with col1:
     imagen_centrada("LECTURA.png", 300)
     st.write(
         "Desarrollo de interfaz para convertir texto escrito en audio, "
-        "explorando herramientas de voz. La actividad permitió comprender "
-        "cómo estas tecnologías facilitan la interacción con "
+        "explorando herramientas de voz, las cuales facilitan la interacción con "
         "contenidos escritos."
     )
     url = "https://gaticorat-cxqqen2bqdsebk6fnnoapf.streamlit.app/"

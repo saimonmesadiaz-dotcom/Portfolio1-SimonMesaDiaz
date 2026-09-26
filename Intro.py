@@ -397,7 +397,7 @@ with col3:
 
 
     st.subheader("Teachable Machine - Reconocer objetos")
-    imagen_centrada("OIG6.jpg", 200)
+    imagen_centrada("FACEID.png", 200)
     st.write(
         "Experimentación con Teachable Machine de Google para entrenar "
         "modelos personalizados de aprendizaje automático. Se realizaron "

@@ -313,7 +313,7 @@ with col1:
     st.write(f"🔗 Texto a Voz: [Enlace]({url})")
 
 
-    st.subheader("Voz a texto multilingüe — Reconocimiento de voz")
+    st.subheader("Voz a texto multilingüe")
     imagen_centrada("Traduccion.avif", 300)
     st.write(
         "Creación de una interfaz capaz de transformar audio de voz en "
@@ -354,7 +354,7 @@ with col2:
     st.write(f"🔗 WordCloud: [Enlace]({url})")
 
 
-    st.subheader("Análisis sentimientos — Emociones e interacción")
+    st.subheader("Análisis sentimientos - Emociones")
     imagen_centrada("OIG3.jpg", 200)
     st.write(
         "Interfaz que identifica sentimientos y emociones presentes "

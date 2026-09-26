@@ -1,9 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-# =========================================================
 # CONFIGURACIÓN DE LA PÁGINA
-# =========================================================
 
 st.set_page_config(
     page_title="Portafolio - Interfaces Multimodales",
@@ -11,20 +9,11 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-
-# =========================================================
 # ESTILOS CSS
-# =========================================================
-
 st.markdown("""
 <style>
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
-
-
-/* =========================================================
-   FONDO GENERAL
-========================================================= */
 
 .stApp {
     background: linear-gradient(
@@ -39,11 +28,6 @@ st.markdown("""
     font-family: 'Poppins', sans-serif;
 }
 
-
-/* =========================================================
-   CONTENEDOR PRINCIPAL
-========================================================= */
-
 .block-container {
     max-width: 1550px;
     padding-top: 3rem;
@@ -52,10 +36,6 @@ st.markdown("""
     padding-bottom: 4rem;
 }
 
-
-/* =========================================================
-   TÍTULO PRINCIPAL
-========================================================= */
 
 h1 {
     text-align: center !important;
@@ -66,10 +46,7 @@ h1 {
     margin-bottom: 0.3rem !important;
 }
 
-
-/* =========================================================
    SUBTÍTULOS
-========================================================= */
 
 h2,
 h3 {
@@ -78,7 +55,6 @@ h3 {
     color: white !important;
     font-weight: 700 !important;
 }
-
 
 /* =========================================================
    TÍTULOS DE LAS ACTIVIDADES
@@ -90,7 +66,6 @@ h3 {
     line-height: 1.35 !important;
     min-height: 55px;
 }
-
 
 /* =========================================================
    TEXTO NORMAL
@@ -326,63 +301,40 @@ col1, col2, col3 = st.columns(3, gap="large")
 with col1:
 
     st.subheader("Mi primer repositorio — Intro GitHub")
-
     imagen_centrada("SnoopyP.jpg", 190)
-
     st.write(
         "Exploración inicial de GitHub como herramienta para el desarrollo "
         "y publicación de interfaces. Se realizó el primer repositorio y "
         "se experimentó con modificaciones visuales y transformaciones "
         "básicas de imágenes dentro de una interfaz web."
     )
-
     url = "https://el-primer-repo-de-saimon-fnendgpad7jxzqwkawtxsa.streamlit.app/"
     st.write(f"🔗 Repositorio Snoopy: [Enlace]({url})")
 
 
     st.subheader("Conversión de texto a audio")
-
     imagen_centrada("txt_to_audio.png", 200)
-
     st.write(
         "Desarrollo de una interfaz para convertir texto escrito en audio, "
         "explorando herramientas de síntesis de voz. La actividad permitió "
         "comprender cómo estas tecnologías facilitan la interacción con "
         "contenidos escritos y sirven como base para interfaces multimodales."
     )
-
     url = "https://gaticorat-cxqqen2bqdsebk6fnnoapf.streamlit.app/"
     st.write(f"🔗 Texto a Voz: [Enlace]({url})")
 
 
     st.subheader("Voz a texto multilingüe — Reconocimiento de voz")
-
     imagen_centrada("Traduccion.avif", 200)
-
     st.write(
         "Creación de una interfaz capaz de transformar audio de voz en "
         "texto en diferentes idiomas, incluyendo español, inglés, francés, "
         "italiano, alemán y mandarín."
     )
-
     url = "https://traductorsimon-cwqeceiewyudz2ktpf6hzh.streamlit.app/"
     st.write(f"🔗 Traductor: [Enlace]({url})")
-
-
-    st.subheader("Imagen a texto — Reconocimiento Óptico de Caracteres")
-
-    imagen_centrada("Playa.jpg", 200)
-
-    st.write(
-        "Implementación de OCR para extraer texto a partir de imágenes. "
-        "La actividad permitió explorar cómo una imagen con información "
-        "escrita puede ser procesada y convertida en texto editable."
-    )
-
-    url = "https://ocr-audiosimon-abfnnjajxn75g8upksqeq6.streamlit.app/"
-    st.write(f"🔗 Reconocimiento óptico de caracteres: [Enlace]({url})")
-
-
+    
+    
 # =========================================================
 # COLUMNA 2
 # =========================================================
@@ -390,9 +342,7 @@ with col1:
 with col2:
 
     st.subheader("Interfaz final — OCR y análisis estadístico")
-
     imagen_centrada("Playa.jpg", 200)
-
     st.write(
         "Desarrollo de una interfaz multimodal de conversión de imagen "
         "a texto, complementada con un análisis estadístico de las vocales "
@@ -400,37 +350,30 @@ with col2:
         "una temática playera para integrar el procesamiento de texto "
         "con una experiencia visual personalizada."
     )
-
     url = "https://ocr-audiosimon-awv2toavjnd8nxdt7uuqvh.streamlit.app/"
     st.write(f"🔗 OCR y análisis: [Enlace]({url})")
 
 
     st.subheader("WordCloud — Nube de palabras")
-
     imagen_centrada("data_analisis.png", 190)
-
     st.write(
         "Creación de nubes de palabras a partir de fragmentos de texto "
         "para representar visualmente los términos más relevantes. "
         "Se exploró el uso de TextBlob y técnicas de procesamiento "
         "de lenguaje natural."
     )
-
     url = "https://wordcloudsimon-5ftjecuahge5koe5fvwyka.streamlit.app/"
     st.write(f"🔗 WordCloud: [Enlace]({url})")
 
 
     st.subheader("Análisis sentimientos — Emociones e interacción")
-
     imagen_centrada("OIG3.jpg", 200)
-
     st.write(
         "Desarrollo de una interfaz para identificar sentimientos y "
         "emociones presentes en un texto. Los resultados se complementaron "
         "con animaciones de Lottie y videos asociados a las emociones "
         "detectadas."
     )
-
     url = "https://sentimentasimon-kxq5k5hfxwdmkofrfih48x.streamlit.app/"
     st.write(f"🔗 Análisis de sentimientos: [Enlace]({url})")
 
@@ -442,44 +385,45 @@ with col2:
 with col3:
 
     st.subheader("Evaluación automática — TF-IDF")
-
     imagen_centrada("Chat_pdf.png", 190)
-
     st.write(
         "Creación de una interfaz para generar preguntas y respuestas "
         "automáticas a partir de textos mediante técnicas de procesamiento "
         "de lenguaje natural. Se utilizó TF-IDF para identificar términos "
         "relevantes dentro de un conjunto de documentos."
     )
-
     url = "https://tdfespsimon-735v6pnj9zjcvmgf2qrjwv.streamlit.app/"
     st.write(f"🔗 TF-IDF: [Enlace]({url})")
 
 
     st.subheader("YOLO — Reconocimiento y detección de objetos")
-
     imagen_centrada("Chat_pdf.png", 190)
-
     st.write(
         "Exploración del modelo YOLO (You Only Look Once) para el "
         "reconocimiento y detección de objetos en imágenes. La actividad "
         "permitió comprender cómo la inteligencia artificial puede "
         "interpretar información visual."
     )
-
     url = "https://t8pwvf7om2y4dwtcjzvsyu.streamlit.app/"
     st.write(f"🔗 YOLO: [Enlace]({url})")
 
 
     st.subheader("Teachable Machine — Reconocimiento de gestos y objetos")
-
     imagen_centrada("OIG6.jpg", 200)
-
     st.write(
         "Experimentación con Teachable Machine de Google para entrenar "
         "modelos personalizados de aprendizaje automático. Se realizaron "
         "pruebas de reconocimiento de personas, objetos y gestos en tiempo real."
     )
-
     url = "https://vision2-gpt4o.streamlit.app/"
     st.write(f"🔗 Teachable Machine: [Enlace]({url})")
+
+    st.subheader("Imagen a texto — Reconocimiento Óptico de Caracteres")
+    imagen_centrada("Playa.jpg", 200)
+    st.write(
+        "Implementación de OCR para extraer texto a partir de imágenes. "
+        "La actividad permitió explorar cómo una imagen con información "
+        "escrita puede ser procesada y convertida en texto editable."
+    )
+    url = "https://ocr-audiosimon-abfnnjajxn75g8upksqeq6.streamlit.app/"
+    st.write(f"🔗 Reconocimiento óptico de caracteres: [Enlace]({url})")

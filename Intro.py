@@ -214,7 +214,6 @@ footer {
 </style>
 """, unsafe_allow_html=True)
 
-
 # =========================================================
 # FUNCIÓN PARA CENTRAR IMÁGENES
 # =========================================================
@@ -232,15 +231,12 @@ def imagen_centrada(ruta, ancho):
             width=ancho
         )
 
-
 # =========================================================
 # ENCABEZADO
 # =========================================================
 
 st.title("Portafolio 1")
-
 st.subheader("Creación de Interfaces Multimodales")
-
 st.markdown(
     """
     <p style="
@@ -255,13 +251,11 @@ st.markdown(
 
 st.markdown("---")
 
-
 # =========================================================
 # IMAGEN PRINCIPAL
 # =========================================================
 
-imagen_centrada("SimonImagen.png", 650)
-
+imagen_centrada("SimonImagen.png", 720)
 
 # =========================================================
 # SIDEBAR
@@ -272,7 +266,6 @@ with st.sidebar:
     st.subheader(
         "Aplicaciones e Interfaces Multimodales y de Inteligencia Artificial"
     )
-
     parrafo = (
         "Este portafolio reúne las actividades desarrolladas durante la "
         "primera mitad del curso de Creación de Interfaces Multimodales, "
@@ -283,16 +276,13 @@ with st.sidebar:
         "experimenté con distintas formas de crear interfaces más interactivas, "
         "accesibles y dinámicas."
     )
-
     st.write(parrafo)
-
 
 # =========================================================
 # COLUMNAS
 # =========================================================
 
 col1, col2, col3 = st.columns(3, gap="large")
-
 
 # =========================================================
 # COLUMNA 1
@@ -301,7 +291,7 @@ col1, col2, col3 = st.columns(3, gap="large")
 with col1:
 
     st.subheader("Mi primer repositorio — Intro GitHub")
-    imagen_centrada("SnoopyP.jpg", 190)
+    imagen_centrada("SnoopyP.jpg", 300)
     st.write(
         "Exploración inicial de GitHub como herramienta para el desarrollo "
         "y publicación de interfaces. Se realizó el primer repositorio y "
@@ -313,7 +303,7 @@ with col1:
 
 
     st.subheader("Conversión de texto a audio")
-    imagen_centrada("txt_to_audio.png", 200)
+    imagen_centrada("txt_to_audio.png", 300)
     st.write(
         "Desarrollo de una interfaz para convertir texto escrito en audio, "
         "explorando herramientas de síntesis de voz. La actividad permitió "
@@ -325,7 +315,7 @@ with col1:
 
 
     st.subheader("Voz a texto multilingüe — Reconocimiento de voz")
-    imagen_centrada("Traduccion.avif", 200)
+    imagen_centrada("Traduccion.avif", 300)
     st.write(
         "Creación de una interfaz capaz de transformar audio de voz en "
         "texto en diferentes idiomas, incluyendo español, inglés, francés, "

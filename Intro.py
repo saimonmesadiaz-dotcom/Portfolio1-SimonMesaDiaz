@@ -373,7 +373,7 @@ with col2:
 with col3:
 
     st.subheader("Evaluación automática — TF-IDF")
-    imagen_centrada("Chat_pdf.png", 190)
+    imagen_centrada("PREGUNTAS.png", 190)
     st.write(
         "Creación de una interfaz para generar preguntas y respuestas "
         "automáticas a partir de textos mediante procesamiento "
@@ -385,7 +385,7 @@ with col3:
 
 
     st.subheader("YOLO - Detección de objetos")
-    imagen_centrada("Chat_pdf.png", 190)
+    imagen_centrada("CAPTCHA.png", 190)
     st.write(
         "Exploración del modelo YOLO (You Only Look Once) para el "
         "reconocimiento y detección de objetos en imágenes. La actividad "

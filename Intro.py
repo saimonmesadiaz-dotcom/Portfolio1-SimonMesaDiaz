@@ -403,7 +403,7 @@ with col3:
         "modelos personalizados de aprendizaje automático. Se realizaron "
         "pruebas de reconocimiento de personas en tiempo real."
     )
-    url = "https://vision2-gpt4o.streamlit.app/"
+    url = "https://t8pwvf7om2y4dwtcjzvsyu.streamlit.app/"
     st.write(f"🔗 Teachable Machine: [Enlace]({url})")
 
 

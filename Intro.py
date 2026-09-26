@@ -290,7 +290,7 @@ col1, col2, col3 = st.columns(3, gap="large")
 
 with col1:
 
-    st.subheader("Mi primer repositorio — Intro GitHub")
+    st.subheader("Mi primer repositorio - Intro GitHub")
     imagen_centrada("SnoopyP.jpg", 300)
     st.write(
         "Exploración inicial de GitHub como herramienta para el desarrollo "
@@ -330,7 +330,7 @@ with col1:
 
 with col2:
 
-    st.subheader("Interfaz final — OCR y análisis estadístico")
+    st.subheader("Interfaz final - OCR y análisis estadístico")
     imagen_centrada("Playa.jpg", 200)
     st.write(
         "Interfaz de conversión de imagen a texto, complementada "
@@ -342,7 +342,7 @@ with col2:
     st.write(f"🔗 OCR y análisis: [Enlace]({url})")
 
 
-    st.subheader("WordCloud — Nube de palabras")
+    st.subheader("WordCloud - Nube de palabras")
     imagen_centrada("WORDCLOUD.png", 190)
     st.write(
         "Creación de nubes de palabras a partir de fragmentos de texto "
@@ -372,7 +372,7 @@ with col2:
 
 with col3:
 
-    st.subheader("Evaluación automática — TF-IDF")
+    st.subheader("Evaluación automática - TF-IDF")
     imagen_centrada("PREGUNTAS.png", 190)
     st.write(
         "Creación de una interfaz para generar preguntas y respuestas "

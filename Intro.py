@@ -311,6 +311,8 @@ with col1:
     )
     url = "https://gaticorat-cxqqen2bqdsebk6fnnoapf.streamlit.app/"
     st.write(f"🔗 Texto a Voz: [Enlace]({url})")
+    url2 = "https://gaticorat-v3kscp9uekqdd9qqfauysz.streamlit.app/"
+    st.write(f"🔗 Texto a Voz: [Enlace]({url2})")
 
 
     st.subheader("Voz a texto multilingüe")

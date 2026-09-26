@@ -380,7 +380,7 @@ with col3:
         "de lenguaje natural. Se utilizó TF-IDF para identificar términos "
         "relevantes dentro de conjuntos de documentos."
     )
-    url = "https://tdfespsimon-735v6pnj9zjcvmgf2qrjwv.streamlit.app/"
+    url = "https://tdfespsimon-5bvcznbfcefdobupqjkmqe.streamlit.app/"
     st.write(f"🔗 TF-IDF: [Enlace]({url})")
 
 

@@ -406,12 +406,22 @@ with col3:
     url = "https://vision2-gpt4o.streamlit.app/"
     st.write(f"🔗 Teachable Machine: [Enlace]({url})")
 
-st.subheader("Imagen a texto — Reconocimiento Óptico de Caracteres")
-imagen_centrada("Playa.jpg", 200)
-st.write(
-    "Implementación de OCR para extraer texto a partir de imágenes. "
-    "La actividad permitió explorar cómo una imagen con información "
-    "escrita puede ser procesada y convertida en texto editable."
-)
-url = "https://ocr-audiosimon-abfnnjajxn75g8upksqeq6.streamlit.app/"
-st.write(f"🔗 Reconocimiento óptico de caracteres: [Enlace]({url})")
+# =========================================================
+# ÚLTIMA ACTIVIDAD — FUERA DE LAS COLUMNAS
+# =========================================================
+
+espacio_izquierdo, contenido_centro, espacio_derecho = st.columns([1, 2, 1])
+
+with contenido_centro:
+
+    st.subheader("Imagen a texto — Reconocimiento Óptico de Caracteres")
+    imagen_centrada("Playa.jpg", 200)
+
+    st.write(
+        "Implementación de OCR para extraer texto a partir de imágenes. "
+        "La actividad permitió explorar cómo una imagen con información "
+        "escrita puede ser procesada y convertida en texto editable."
+    )
+
+    url = "https://ocr-audiosimon-abfnnjajxn75g8upksqeq6.streamlit.app/"
+    st.write(f"🔗 Reconocimiento óptico de caracteres: [Enlace]({url})")

@@ -401,7 +401,7 @@ with col3:
     st.write(
         "Experimentación con Teachable Machine de Google para entrenar "
         "modelos personalizados de aprendizaje automático. Se realizaron "
-        "pruebas de reconocimiento de personas, objetos y gestos en tiempo real."
+        "pruebas de reconocimiento de personas en tiempo real."
     )
     url = "https://vision2-gpt4o.streamlit.app/"
     st.write(f"🔗 Teachable Machine: [Enlace]({url})")

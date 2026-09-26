@@ -313,7 +313,7 @@ with col1:
     st.write(f"🔗 Texto a Voz: [Enlace]({url})")
 
 
-    st.subheader("Voz a texto multilingüe (Traductor)")
+    st.subheader("Voz a texto multilingüe")
     imagen_centrada("Traduccion.avif", 300)
     st.write(
         "Creación de una interfaz capaz de transformar audio de voz en "

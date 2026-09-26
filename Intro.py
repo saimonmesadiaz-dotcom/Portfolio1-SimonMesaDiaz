@@ -376,9 +376,9 @@ with col3:
     imagen_centrada("Chat_pdf.png", 190)
     st.write(
         "Creación de una interfaz para generar preguntas y respuestas "
-        "automáticas a partir de textos mediante técnicas de procesamiento "
+        "automáticas a partir de textos mediante procesamiento "
         "de lenguaje natural. Se utilizó TF-IDF para identificar términos "
-        "relevantes dentro de un conjunto de documentos."
+        "relevantes dentro de documentos."
     )
     url = "https://tdfespsimon-735v6pnj9zjcvmgf2qrjwv.streamlit.app/"
     st.write(f"🔗 TF-IDF: [Enlace]({url})")

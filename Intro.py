@@ -431,5 +431,3 @@ with contenido_centro:
     url2 = "https://ocr-audiosimon-abfnnjajxn75g8upksqeq6.streamlit.app/"
     st.write(f"🔗 Interfaz OCR sin intervención: [Enlace]({url})")
     
-# El iframe ajusta su altura al contenido mediante JavaScript.
-components.html(HTML,height=3000,scrolling=False)
